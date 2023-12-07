@@ -32,7 +32,7 @@ st.set_page_config(
  )
 
 
-st.title("Barcelona Real state Study")
+st.title("Barcelona Real State Study")
 
 st.header("IronHack final project")
 
@@ -62,11 +62,11 @@ Offering users a comprehensive understanding through three distinct components: 
 # Columns: A way of splitting equally your text. You can have as much as you want
 col1, col2 = st.columns(2)
 
-# Left Column for the movie information
+# Left Column
 col1.subheader("**General Information**")
 for key, value in project_info.items():
     col1.write(f"**{key}:** {value}")
 
-# Right column for the movie synopsis
+# Right column
 col2.subheader("*Project Overview*")
 col2.write(Project_Overview)

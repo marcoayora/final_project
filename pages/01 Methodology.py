@@ -51,7 +51,7 @@ def main():
     st.header("6. Challenges and Solutions 🛠️")
     st.write(
         "Throughout the project journey, I navigated challenges, from data complexities to model fine-tuning. "
-        "My commitment to excellence resulted in innovative solutions, enriching the user experience and ensuring the robustness of our insights, ensuring the best results possible based on the data provided."
+        "My commitment to excellence resulted in innovative solutions, enriching the user experience and ensuring the robustness of my insights, ensuring the best results possible based on the data provided."
     )
 
     st.header("7. Future Enhancements 🚀")
