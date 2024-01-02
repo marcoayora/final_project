@@ -27,7 +27,7 @@ def main():
     st.write(
         "Tableau was chosen for its unparalleled ability to transform data into interactive visualizations. "
         "The visualizations provide a panoramic view of Barcelona's real estate landscape, highlighting trends and patterns for informed decision-making."
-        "Such as a company looking to invest on Real State or a family new to barcelona looking for a place to live"
+        "Such as a company looking to invest on Real Estate or a family new to barcelona looking for a place to live"
     )
 
     st.header("3. Predictive Modeling 📈")
