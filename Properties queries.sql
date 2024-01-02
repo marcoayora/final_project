@@ -1,1 +1,0 @@
--- SQL queries for Idealista Ads

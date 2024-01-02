@@ -56,7 +56,7 @@ project_info = {
 
 Project_Overview = """
 This multifaceted project delves into the intricate dynamics of the real estate market in Barcelona, Spain. 
-Offering users a comprehensive understanding through three distinct components: Tableau visualizations, SQL queries, and a predictive modeling framework.
+Offering users a comprehensive understanding through distinct components: different Tableau visualizations and a predictive modeling framework.
 """
 
 # Columns: A way of splitting equally your text. You can have as much as you want

@@ -30,31 +30,25 @@ def main():
         "Such as a company looking to invest on Real State or a family new to barcelona looking for a place to live"
     )
 
-    st.header("3. SQL Queries 💻")
-    st.write(
-        "To empower users with tailored property searches, we employed SQL queries accessible through GitHub. "
-        "These queries allow users to filter properties based on specific characteristics, providing detailed information on location, price, and coordinates."
-    )
-
-    st.header("4. Predictive Modeling 📈")
+    st.header("3. Predictive Modeling 📈")
     st.write(
         "The predictive model, grounded in advanced analytics using h2o, which calculates the best combination of regression models possible. It estimates property prices based on a multitude of characteristics. "
         "Users can input specific features and receive insights into the potential market value, adding a forward-looking dimension to the exploration of Barcelona's real estate market."
     )
 
-    st.header("5. User Interaction 🚀")
+    st.header("4. User Interaction 🚀")
     st.write(
         "Designed with user interaction in mind, our project offers a seamless experience. "
         "Users can dynamically engage with visualizations, and harness the predictive model to make data-driven decisions in the dynamic Barcelona real estate landscape."
     )
 
-    st.header("6. Challenges and Solutions 🛠️")
+    st.header("5. Challenges and Solutions 🛠️")
     st.write(
         "Throughout the project journey, I navigated challenges, from data complexities to model fine-tuning. "
         "My commitment to excellence resulted in innovative solutions, enriching the user experience and ensuring the robustness of my insights, ensuring the best results possible based on the data provided."
     )
 
-    st.header("7. Future Enhancements 🚀")
+    st.header("6. Future Enhancements 🚀")
     st.write(
         "This project is a living entity, open to continuous evolution. "
         "Future enhancements may include additional visualizations, expanded SQL query functionalities, or the integration of cutting-edge modeling techniques, all aimed at providing users with deeper insights and a richer exploration experience."
