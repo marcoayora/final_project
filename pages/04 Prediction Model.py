@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 import h2o
 
-# df = pd.read_csv("C:/Users/Marco/Desktop/IronHack/projects/final_project/Data/prediction_idealista.csv")
+df = pd.read_csv("C:/Users/Marco/Desktop/IronHack/projects/final_project/Data/prediction_idealista.csv")
 
-df = pd.read_csv("../Data/prediction_idealista.csv")
+# df = pd.read_csv("../Data/prediction_idealista.csv")
 
 # Streamlit App
 st.title('Property Price Prediction App')
