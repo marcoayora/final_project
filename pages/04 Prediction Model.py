@@ -71,6 +71,10 @@ if st.button('Predict Price'):
     # Select the last row from the user DataFrame
     df_user_predict = user_input_df.iloc[[-1]]
 
+    #h2o connection
+    import h2o
+    h2o.init()
+
     # Load the H2O model
     loaded_model = h2o.load_model(model_path)
 
@@ -85,5 +89,3 @@ if st.button('Predict Price'):
 
    
     st.write(f'The predicted price is {round(prediction[0], 2):,.0f}€')
-
-    
