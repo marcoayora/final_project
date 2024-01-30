@@ -42,8 +42,7 @@ cover = Image.open("Images/vistas_bcn.jpg")
 st.image(cover, use_column_width=True)
 # If I don`t use the "st.", NOTHING will be shown. Although it is useful for saving variables and calculate a bunch of stuff (really useful if you want to import functions and libraries or use Machine Learning in you code)
 st.write(
-    "This project is designed to empower users with a comprehensive understanding of the dynamic Real Estate market in Barcelona, Spain. Divided into three distinct components, it offers an insightful exploration of the city's property landscape.",
-    font={'size': 25})
+    "This project is designed to empower users with a comprehensive understanding of the dynamic Real Estate market in Barcelona, Spain. Divided into three distinct components, it offers an insightful exploration of the city's property landscape.")
 
 project_info = {
     "Title": "Real State Study",
