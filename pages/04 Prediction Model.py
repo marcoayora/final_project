@@ -66,7 +66,8 @@ if st.button('Predict Price'):
     h2o.init()
 
     # Model path
-    model_path = "C:/Users/Marco/Desktop/IronHack/projects/final_project/StackedEnsemble_AllModels_1_AutoML_1_20231206_103316"
+    # model_path = "C:/Users/Marco/Desktop/IronHack/projects/final_project/StackedEnsemble_AllModels_1_AutoML_1_20231206_103316"
+    model_path = "./StackedEnsemble_AllModels_1_AutoML_1_20231206_103316"
 
     # Select the last row from the user DataFrame
     df_user_predict = user_input_df.iloc[[-1]]
